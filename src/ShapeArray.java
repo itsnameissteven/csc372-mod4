@@ -6,6 +6,7 @@ public class ShapeArray {
 
     Shape[] shapeArray = {sphere, cylinder, cone};
 
+    // Loop through each shape and print shape using toString
     for(Shape shape : shapeArray) {
       System.out.println(shape.toString());
     }
